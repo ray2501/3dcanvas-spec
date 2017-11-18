@@ -45,13 +45,13 @@ the 3-D Canvas widget is a high-level abstraction of OpenGL.
 make 
 
 %install
-make DESTDIR=%{buildroot} pkglibdir=%{directory}/%{_lib}/tcl/%{name}%{version} install
+make DESTDIR=%{buildroot} pkglibdir=%{tcl_archdir}/%{name}%{version} install
 
 %clean
 rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
-%{directory}/%{_lib}/tcl
+%{tcl_archdir}
 %{directory}/share/man/mann/canvas3d.n.gz
 
