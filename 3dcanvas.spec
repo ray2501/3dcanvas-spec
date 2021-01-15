@@ -6,7 +6,7 @@ Name:          3dcanvas
 Summary:       A 3-D Canvas Widget For Tcl/Tk
 Version:       1.2.4
 Release:       1
-License:       BSD
+License:       BSD-3-Clause
 Group:         Development/Libraries/Tcl
 Source:        3dcanvas-1.2.4.tar.gz
 URL:           http://3dcanvas.tcl.tk/index.html/doc/tip/doc/index.wiki
